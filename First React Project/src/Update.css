@@ -1,0 +1,37 @@
+
+.reactUpdate {
+    padding: 30px;
+}
+.reactUpdate h1{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+.reactUpdate h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+}
+.reactUpdate h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+}
+.reactUpdate p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 1024px) {
+    .reactUpdate{
+        margin: 50px 100px;
+        padding: 30px;
+    }
+}

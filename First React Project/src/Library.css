@@ -1,0 +1,50 @@
+.libraries{
+    padding: 30px;
+}
+
+.libraries h1{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+.libraries ul{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    padding-left: 40px;
+}
+.libraries ul li{
+    margin-top: 20px;
+}
+.libraries h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+}
+.libraries p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 1024px) {
+    .libraries{
+        margin: 50px 100px;
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .libraries {
+        padding: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .libraries {
+        padding: 30px;
+    }
+}

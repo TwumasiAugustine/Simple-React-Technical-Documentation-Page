@@ -1,0 +1,45 @@
+.blog{
+    padding: 30px;
+}
+
+.blog h1{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+.blog h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+}
+.blog p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+@media  screen and (min-width: 1024px) {
+    .blog{
+        margin: 50px 100px;
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .blog{
+        margin-bottom: 10px;
+        padding: 30px;
+    }
+    p{
+        text-align: justify;
+    }
+}
+@media screen and(min-width: 768px) and (max-width: 1023px) {
+    .blog{
+        margin: 100px 50px;
+    }
+}
